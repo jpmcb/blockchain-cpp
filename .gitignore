@@ -1,3 +1,9 @@
+# The executible
+cpp_bc
+
+# Visual studio specific
+.vscode
+
 # Prerequisites
 *.d
 
