@@ -13,13 +13,13 @@ CXXFLAGS += -pedantic-errors
 VGFLAGS = --tool=memcheck --leak-check=full
 
 # Basic Source files
-SRCS = main.cpp block.cpp chain.cpp sha256.cpp
+SRCS = main.cpp block.cpp chain.cpp sha256.cpp util.cpp
 
 # Basic object files
-OBJS = main.o block.o chain.o sha256.o
+OBJS = main.o block.o chain.o sha256.o util.o
 
 # Basic headers
-HEADERS = block.hpp chain.hpp sha256.hpp
+HEADERS = block.hpp chain.hpp sha256.hpp util.hpp
 
 # Name of the executable file
 PROJECT_NAME = cpp_bc
